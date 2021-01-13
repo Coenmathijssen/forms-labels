@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms and labels</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+  <link href="/main.77bb5cfd.css" rel="stylesheet">
+<script src="/main.77bb5cfd.js"></script></head>
+<body>
+  <section>
+    <h1>
+      Ultimate form feedback
+    </h1>
+    <form action="/" class="form">
+      <fieldset>
+        <legend>
+          Basic information
+        </legend>
+        <div class="flex">
+          <div class="form-field half">
+            <label for="first_name">First name *</label>
+            <input type="text" name="first_name" id="first_name" required="">
+          </div>
+          <div class="form-field half">
+            <label for="last_name">Last name *</label>
+            <input type="text" name="last_name" id="last_name" required="">
+          </div>
+          <div class="form-field full">
+            <label for="last_name">Email *</label>
+            <input type="email" name="email" id="email" data-helper="Validates email format" data-error="Please enter a valid email" required="">
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+  <script src="/js.00a46daa.js"></script>
+</body>
+</html>
